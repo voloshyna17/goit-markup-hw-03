@@ -25,7 +25,8 @@
 }
 
 .team-info {
-    padding: 32px 0;
+    /* ВИПРАВЛЕНО: додано бічні паддінги 16px  */
+    padding: 32px 16px;
     text-align: center;
 }
 

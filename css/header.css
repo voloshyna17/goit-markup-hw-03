@@ -5,12 +5,13 @@
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
+/* Авто-маржин відштовхне контакти праворуч, незалежно від ширини екрана */
 .navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .logo-link {
@@ -22,6 +23,7 @@
     text-transform: uppercase;
     color: #2E2F42;
     margin-right: 76px;
+    /* Стала відстань від лого до меню */
 }
 
 .logo-link span {
